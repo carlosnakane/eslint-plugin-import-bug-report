@@ -1,0 +1,17 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"extends": [
+		"plugin:import/errors",
+		"plugin:import/warnings"
+	],
+	"rules": {
+		"import/newline-after-import": ["error", { "count": 2 }]
+	},
+	"settings": {
+		"import/resolver": {
+		  "node": {
+			"extensions": [".ts"]
+		  }
+		}
+	}
+}
